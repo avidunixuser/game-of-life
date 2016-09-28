@@ -170,7 +170,7 @@
                     <scanIntervalSeconds>0</scanIntervalSeconds>
                     <war>${project.build.directory}/dependency/gameoflife-web.war</war>
                     <webApp>
-                      <contextPath>/gameoflife</contextPath>
+                      <contextPath>/</contextPath>
                     </webApp>
                     <daemon>${jetty.daemon}</daemon>
                     <!--connectors>
