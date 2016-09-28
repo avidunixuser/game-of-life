@@ -6,7 +6,7 @@ USER root
   
 RUN apt-get update -qqy \
   && apt-get -qqy --no-install-recommends install \
-    openjdk-7-jdk \
+    openjdk-8-jdk \
   && rm -rf /var/lib/apt/lists/*
 
 RUN wget -O- http://archive.apache.org/dist/maven/maven-3/$MAVEN_VERSION/binaries/apache-maven-$MAVEN_VERSION-bin.tar.gz | tar xzf - -C /opt \
